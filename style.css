@@ -1,0 +1,32 @@
+/* Fondo del body con imagen que ocupe toda la pantalla */
+body {
+  background-image: url(assets/img/nubes.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right, top;
+  background-attachment: fixed;
+  margin: 0;   padding: 0;   font-family: Arial, sans-serif;
+}
+
+/* h1 con fondo negro opaco y texto amarillo */
+h1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f4e033;
+  padding: 10px;
+}
+
+/* h2 con fondo naranja y texto blanco */
+h2 {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+}
+
+/* Imagen opcional: puedes darle tamaño si deseas */
+img {
+  width: 300px;
+  margin: 20px;
+  border: 2px solid white;
+}
+
+

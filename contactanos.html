@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JULIAN HERNANDEZ</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="Contacto">
+
+    <header>
+        <h1 style="text-align: center;">JULIAN HERNANDEZ</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../quiensoy.html">QUIÉN SOY</a></li>
+            <li><a href="ESTUDIO PROFESIONAL/estudio-profesional.html">ESTUDIO PROFESIONAL</a></li>
+            <li><a href="./contactanos.html">CONTÁCTANOS</a></li>
+            <li><a href="./iniciar sesion.html">INICIAR SESIÓN</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <main>
+        <form method="post">
+            <fieldset>
+                <legend>CONTACTO</legend>
+
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required><br>
+
+                <label for="telefono">Teléfono</label><br>
+                <input type="text" id="telefono" name="telefono" placeholder="Teléfono" required><br>
+
+                <label for="email">Correo Electrónico</label><br>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required><br>
+
+                <label for="edad">Edad</label><br>
+                <select name="edad" id="edad" required>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option value="18-28">18-28 años</option>
+                    <option value="29-39">29-39 años</option>
+                    <option value="40-49">40-49 años</option>
+                    <option value="50-59">50-59 años</option>
+                    <option value="60+">Mayor a 60 años</option>
+                </select><br>
+
+                <p>Situación Laboral:</p>
+                <label><input type="radio" name="situacion-laboral" value="empleado"> Empleado</label><br>
+                <label><input type="radio" name="situacion-laboral" value="desempleado"> Desempleado</label><br>
+                <label><input type="radio" name="situacion-laboral" value="estudiante"> Estudiante</label><br>
+                <label><input type="radio" name="situacion-laboral" value="pensionado"> Pensionado</label><br>
+                <label><input type="radio" name="situacion-laboral" value="busqueda-activa"> Búsqueda Activa</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>TIEMPO LIBRE</legend>
+                <label><input type="checkbox" name="tiempo-libre" value="deporte"> Deporte</label><br>
+                <label><input type="checkbox" name="tiempo-libre" value="lectura"> Lectura</label><br>
+                <label><input type="checkbox" name="tiempo-libre" value="musica"> Música</label><br>
+                <label><input type="checkbox" name="tiempo-libre" value="programacion"> Estudias programación</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>CONTACTO</legend>
+                <label for="motivo">Motivo de Contacto</label><br>
+                <select name="motivo" id="motivo" required>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="otro">Otro</option>
+                </select><br>
+
+                <label for="comentario">Comentario</label><br>
+                <textarea name="comentario" id="comentario" cols="55" rows="10"></textarea><br>
+
+                <label>
+                    <input type="checkbox" name="suscripcion" checked> Suscribirse a nuestro boletín
+                </label><br><br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <p>Todos los derechos reservados en Colombia 2025</p>
+            <ul>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Mapa del sitio</a></li>
+                <li><a href="#">Información legal</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
