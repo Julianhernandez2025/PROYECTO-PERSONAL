@@ -41,6 +41,7 @@ margin-bottom: 10px;
 
 p{
   margin-left: 10px;
+  margin-right: 20px;
 }
 /* Imagen opcional: puedes darle tamaño si deseas */
 img {
@@ -86,7 +87,7 @@ tr:hover {
 }
 
 tr:last-child td {
-  border-bottom: none;
+  border-bottom: 20px;
 
 
 }
@@ -95,12 +96,32 @@ tr:last-child td {
   margin-left: 20px;
   margin-right: 10px;
   text-align: center;
+  margin-bottom: 20px;
 
 }
 .cajita2 {
   margin-left: 20px;
   margin-right: 10px;
   text-align: center;
+  margin-top: 20px;
 
+}
+
+.btn-comienza {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+}
+
+.btn-comienza:hover {
+    background-color: #0056b3;
+    transform: scale(1.06);
 }
 
