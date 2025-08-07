@@ -6,8 +6,21 @@ body {
   background-position: right, top;
   background-attachment: fixed;
   margin: 0;   padding: 0;   font-family: Arial, sans-serif;
+ 
+}
+header{
+  background-color: lightgreen;
+  color: white;
+  font-size: 15px;
+  border-bottom: 3px solid indigo;
+  padding: 20px;
+  margin-top: 15px;
+ 
 }
 
+section{
+  box-sizing: border-box;
+}
 /* h1 con fondo negro opaco y texto amarillo */
 h1 {
   background-color: rgba(104, 111, 212, 0.8);
@@ -57,7 +70,7 @@ img {
 }
 
 table {
-  width: 200%;
+  width: 150%;
   max-width: 1325px;
   margin: 5px auto;
   border-collapse: collapse;
@@ -66,6 +79,8 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  outline: 10px auto black;
+  outline-offset: 10px;
 }
 
 th, td {
@@ -125,3 +140,39 @@ tr:last-child td {
     transform: scale(1.06);
 }
 
+.menu{
+  width: 50px;
+  height: auto;
+  display:block;
+  margin: auto;
+}
+/* --- MENÚ HORIZONTAL CON ÍCONOS Y TEXTO --- */
+.menu-iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.menu {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu-item span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
