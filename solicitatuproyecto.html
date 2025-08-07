@@ -1,0 +1,69 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JULIAN HERNANDEZ</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="header">JULIAN HERNANDEZ</div>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">INICIO</a></li>
+      <li><a href="quiensoy.html">QUIÉN SOY</a></li>
+      <li><a href="estudio.html">ESTUDIO</a></li>
+      <li><a href="servicios.html">SERVICIOS</a></li>
+      </ul>
+  </nav>
+<section id="contacto" class="contact-form-section">
+  <div class="container">
+  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Proyecto Web</title>
+  <style>
+    body { font-family: Arial; padding: 30px; background: #f4f4f4; }
+    .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    label { display: block; margin-top: 15px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; }
+    button { background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 20px; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Solicita tu Proyecto Web</h2>
+    <form action="enviar.php" method="POST">
+      <label for="nombre">Nombre completo *</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico *</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <label for="tipo-sitio">¿Cómo quieres tu sitio?</label>
+      <select id="tipo-sitio" name="tipo-sitio" required>
+        <option value="">Selecciona una opción</option>
+        <option value="landing">Landing Page</option>
+        <option value="corporativo">Sitio Corporativo</option>
+        <option value="ecommerce">Tienda Online</option>
+        <option value="blog">Blog</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="mensaje">Detalles adicionales</label>
+      <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </div>
+</body>
+</html>
