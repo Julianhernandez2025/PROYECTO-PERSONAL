@@ -1,6 +1,6 @@
 /* Fondo del body con imagen que ocupe toda la pantalla */
 body {
-  background-image: url(assets/img/nubes.jpeg);
+  background-image: url(assets/img/INICIAL\ CON\ NOMBRE\ NEGOCIO.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top;
@@ -61,8 +61,12 @@ h3 {
 
 /* Párrafos */
 p {
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 20px;
+  border-style: hidden;
+  border:1px solid black;
 }
 
 /* Imagen general */
@@ -70,14 +74,13 @@ img {
   width: 300px;
   margin: 20px;
   border: 2px solid white;
+position: absolute;
+left: 0;
+top: 0;
+z-index: -1;
 }
 
-/* Contenedor principal */
-.contenedor-principal {
-  width: 300px;
-  height: 100px;
-  border-style: hidden;
-}
+
 
 /* Tablas */
 table {
@@ -151,10 +154,3 @@ tr:last-child td {
   transform: scale(1.06);
 }
 
-/* Imagen del menú */
-.contenedor {
- display: flex;
-width: 50px;
-height: 50px;
-max-width: 500px;
-}
