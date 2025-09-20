@@ -67,6 +67,7 @@ p {
   font-weight: 20px;
   border-style: hidden;
   border:1px solid black;
+  overflow: auto;
 }
 
 /* Imagen general */
