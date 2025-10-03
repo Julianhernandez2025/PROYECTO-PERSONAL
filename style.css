@@ -67,7 +67,6 @@ p {
   font-weight: 20px;
   border-style: hidden;
   border:1px solid black;
-  overflow: auto;
 }
 
 /* Imagen general */
@@ -93,7 +92,7 @@ table {
   background-color: #f9f9f9;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  overflow: hidden;
+  overflow: auto;
   outline: 10px auto black;
   outline-offset: 10px;
 }
@@ -155,3 +154,20 @@ tr:last-child td {
   transform: scale(1.06);
 }
 
+.contenedor-principal{
+background-color: aquamarine;
+text-align: end;
+margin: 0;
+padding: 0;
+}
+
+.nav li{ 
+display: inline-block;
+font-size: 20px;
+width: 250px;
+height: 50px;
+}
+
+.a{
+  text-decoration: none;
+}
