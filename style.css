@@ -69,17 +69,6 @@ p {
   border:1px solid black;
 }
 
-/* Imagen general */
-img {
-  width: 300px;
-  margin: 20px;
-  border: 2px solid white;
-position: absolute;
-left: 0;
-top: 0;
-z-index: -1;
-}
-
 
 
 /* Tablas */
@@ -156,18 +145,32 @@ tr:last-child td {
 
 .contenedor-principal{
 background-color: aquamarine;
-text-align: end;
+text-align: center;
 margin: 0;
 padding: 0;
 }
 
 .nav li{ 
 display: inline-block;
-font-size: 20px;
-width: 250px;
-height: 50px;
+font-size: 15px;
+width: 200px;
+height: 20px;
 }
 
 .a{
   text-decoration: none;
+}
+.center{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  width: 1000px;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 50px auto;
+  
 }
