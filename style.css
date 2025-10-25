@@ -87,6 +87,7 @@ img {
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   z-index: 10;
+
 }
 
 /* Tablas */
@@ -106,6 +107,7 @@ table {
   display: flex;
   flex-wrap: wrap;
   background-color: aquamarine;
+  flex-direction: row;
 }
 
 th, td {
@@ -221,4 +223,62 @@ divp{
 
 a[target]{
   background-color: aqua;
+}
+
+/* Contenedor principal (imagen + texto) */
+.bloque-estudio {
+  display: flex;
+  align-items: flex-start; /* Alinea arriba la imagen y texto */
+  justify-content: center;
+  gap: 30px; /* Espacio entre imagen y texto */
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1100px;
+  background-color: rgba(255, 255, 255, 0.1); /* opcional */
+  border-radius: 10px;
+}
+
+/* Imagen */
+.img-estudio {
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Texto */
+.bloque-texto p {
+  max-width: 750px;
+  color: red;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Tabla */
+.tabla-estudios {
+  width: 90%;
+  margin: 0 auto 40px auto;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Responsividad: para pantallas pequeñas */
+@media (max-width: 768px) {
+  .bloque-estudio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-estudio {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .bloque-texto p {
+    text-align: justify;
+    padding: 10px;
+  }
 }
