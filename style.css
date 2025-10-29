@@ -230,8 +230,7 @@ a[target]{
   display: flex;
   align-items: flex-start; /* Alinea arriba la imagen y texto */
   justify-content: center;
-  gap: 30px; /* Espacio entre imagen y texto */
-  margin: 30px auto;
+   margin: 30px;
   padding: 20px;
   max-width: 1100px;
   background-color: rgba(255, 255, 255, 0.1); /* opcional */
@@ -257,12 +256,16 @@ a[target]{
 
 /* Tabla */
 .tabla-estudios {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: aquamarine;
   width: 90%;
   margin: 0 auto 40px auto;
   border-collapse: collapse;
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
+
 }
 
 /* Responsividad: para pantallas pequeñas */
